@@ -7,20 +7,30 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom: 25px;
     background: rgb(177, 228, 241);
+    border-radius:6px;
+    box-shadow: 5px 9px rgb(161, 214, 228);
 }
 
 .assignment img {
     width:200px;
+    border: 2px solid rgb(86, 175, 216);
     padding:10px;
+    margin-right:20px;
+    border-radius:5px;
 }
 
 h1 {
-    color: rgb(14, 14, 179);
+    color: rgb(25, 5, 211);
     text-align:center;
 }
 
 a {
     text-decoration: none;
-    color: dimgrey;
+    color: rgb(66, 100, 252);
+}
+
+.assignment a:hover {
+    color: white;
 }
